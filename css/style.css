@@ -55,8 +55,8 @@ a:hover {
 }
 
 img {
-    max-width: auto;
     height: 320px;
+    width: 100%;
 }
 
 /* Header Styles */
