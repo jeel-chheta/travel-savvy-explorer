@@ -55,7 +55,7 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: auto;
     height: 320px;
 }
 
