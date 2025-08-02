@@ -117,14 +117,15 @@ nav ul li a.active {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg') no-repeat center center/cover;
-    height: 80vh;
-    display: flex;
-    align-items: center;
+    background-image: url('../images/hero-bg.png'); /* Update path as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Adjust as needed */
+    color: white; /* Ensure text is readable */
     text-align: center;
-    color: white;
-    margin-top: 70px;
 }
+
 
 .hero h1 {
     font-family: var(--font-heading);
